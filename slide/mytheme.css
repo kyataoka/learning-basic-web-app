@@ -1,0 +1,64 @@
+/* @theme mytheme */
+
+@import "default";
+
+section {
+  background-color: #202020;
+  color: white !important;
+}
+
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+  color: white;
+}
+
+section.title {}
+
+section.title h3 {
+  margin-left: 20px;
+}
+
+table,
+th,
+td {
+  background-color: #202020;
+}
+
+th {
+  font-weight: bold;
+}
+
+section.page {
+  /* padding-top: 150px; */
+  justify-content: start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+}
+
+section.page h1 {
+  margin-left: -50px;
+  /* position: absolute;
+  left: 50px;
+  top: 50px; */
+}
+
+section.page h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* position: absolute;
+  left: 50px;
+  top: 50px; */
+}
+
+section.eof {
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
